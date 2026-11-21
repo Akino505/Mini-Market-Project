@@ -32,7 +32,7 @@ export default function App() {
           <div>
             <Badge $tone="brand">Корзина: {cartCount}</Badge>{' '}
             <Button variant="secondary" size="lg" onClick={toggle}>
-              {mode === 'dark' ? 'На светлую ☀️' : 'На темную🌙'}
+              {mode === 'dark' ? 'На светлую ☀️' : 'На темную 🌙'}
             </Button>
           </div>
         </Header>
