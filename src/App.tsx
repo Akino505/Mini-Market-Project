@@ -31,8 +31,8 @@ export default function App() {
           <h1>Мини-маркет</h1>
           <div>
             <Badge $tone="brand">Корзина: {cartCount}</Badge>{' '}
-            <Button variant="secondary" size="sm" onClick={toggle}>
-              {mode === 'dark' ? '☀️ Светлая' : '🌙 Тёмная'}
+            <Button variant="secondary" size="lg" onClick={toggle}>
+              {mode === 'dark' ? 'На светлую ☀️' : 'На темную 🌙'}
             </Button>
           </div>
         </Header>
